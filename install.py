@@ -4,7 +4,7 @@ try:
     import fabric
 except:
     print 'Installing fabric...'
-    pip.main(['install'],'fabric')
+    pip.main(['install','fabric'])
     print 'Fabric installed!'
 from fabric.api import *
 
