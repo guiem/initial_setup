@@ -15,4 +15,4 @@ for server in SERVERS:
     env.port = server[3]
     env.warn_only = True
     sudo('apt-get install python-pip')
-
+    sudo('apt-get install sendmail') # php for example uses sendmail in @mail function
